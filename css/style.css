@@ -1,0 +1,88 @@
+/* FORMAT OF THE PAGE*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(186, 240, 219);
+}
+
+/* TITLE */
+.title {
+    display: flex;
+    justify-content: center;
+    color: rgb(82, 80, 80);
+    padding: 20px 0px;
+}
+
+.Person {
+    padding: 20px 0px 0px 0px;
+}
+
+h3 {
+    padding: 5px;
+}
+
+/* PLACEHOLDERS */
+.name_of_the_person_placeholder,
+.age_of_the_person_placeholder,
+.gender_of_the_person_selector {
+    height: 25px;
+    width: 300px;
+}
+
+.name_of_the_person_placeholder,
+.age_of_the_person_placeholder {
+    color: rgb(138, 133, 133);
+}
+
+/* FORM */
+.main {
+    display: flex;
+    border: 1px solid black;
+    height: 80vh;
+    width: 80vh;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: center;
+}
+
+.main_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+/* BUTTONS */
+.container_button {
+    padding: 0px 0px 20px 0px;
+}
+
+.button_send {
+    height: 40px;
+    width: 120px;
+}
+
+/* FOOTER */
+.footer_exercises {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 5px;
+}
+
+.buttons_per_exercise {
+    width: 40px;
+    height: 30px;
+}
