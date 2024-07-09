@@ -28,13 +28,15 @@ h3 {
 /* PLACEHOLDERS */
 .name_of_the_person_placeholder,
 .age_of_the_person_placeholder,
-.gender_of_the_person_selector {
+.gender_of_the_person_selector,
+.career_of_the_person_placeholder {
     height: 25px;
     width: 300px;
 }
 
 .name_of_the_person_placeholder,
-.age_of_the_person_placeholder {
+.age_of_the_person_placeholder,
+.career_of_the_person_placeholder {
     color: rgb(138, 133, 133);
 }
 
